@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+# Mr. Flatbeds Transportation Inc.
 
 You can use the [editor on GitHub](https://github.com/icyan/mrflatbeds/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
