@@ -23,16 +23,16 @@ time, mark, audio, video {
 body {
     width: 960px;
     margin: 0 auto;
-    background: #FAFAFA;
+    background-image: url(/images/bg.png);
 }
 
 h1 {
-    font-family:'Open Sans';
+    font-family:'Arial';
     font-weight: 400;
-    font-size: 23pt;
-    color: #292929;
+    font-size: 30pt;
+    color: white;
     padding-top: 20px;
-    color: rgba(53, 53, 53, 0.8);
+    color: #c9c9c9;
     margin-right: 0px;
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
@@ -40,7 +40,14 @@ h1 {
 }
 
 h1:hover {
-    text-shadow: 1px 4px 6px #FAFAFA, 0 0 0 #000, 1px 4px 6px #FAFAFA;
+    text-shadow: 1px 4px 6px #606060, 0 0 0 #000, 1px 4px 6px #606060;
+}
+
+#box {
+    width: 310px;
+    float: left;
+    margin: 0 4px 25px 4px;
+    border: 1px solid #eee;
 }
 
 a {
