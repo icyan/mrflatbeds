@@ -43,6 +43,10 @@ h1:hover {
     text-shadow: 1px 4px 6px #606060, 0 0 0 #000, 1px 4px 6px #606060;
 }
 
+#title {
+    float: right
+}
+
 #box {
     width: 310px;
     float: left;
@@ -70,7 +74,7 @@ nav a {
     font-family:'Open Sans';
     font-weight: 600;
     font-size: 11pt;
-    color: #353535;
+    color: white;
     text-transform: uppercase;
     border-bottom-style: solid;
     border-color: rgba(0,0,0,0);
@@ -82,12 +86,12 @@ nav a {
 
 nav a:hover {
     border-bottom-style: solid;
-    border-color: #00b93d;
+    border-color: #ffdd38;
 }
 
 .selected {
     border-bottom-style: solid;
-    border-color: #00b93d;
+    border-color: #ffdd38;
 }
 
 hr {
