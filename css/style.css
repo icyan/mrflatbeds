@@ -27,10 +27,9 @@ body {
 }
 
 h1 {
-    font-family:'Arial';
+    font-family:'Franklin Gothic Medium';
     font-weight: 400;
-    font-size: 30pt;
-    color: white;
+    font-size: 35pt;
     padding-top: 20px;
     color: #c9c9c9;
     margin-right: 0px;
@@ -59,8 +58,8 @@ a {
 }
 
 nav {
-    float: right;
-    margin-top: -20px;
+    padding: 10px;
+    background-color: rgba(43, 43, 43, 0.6);
 }
 
 nav li {
@@ -71,15 +70,15 @@ nav li {
 
 nav a {
     text-decoration: none;
-    font-family:'Open Sans';
+    font-family:'Franklin Gothic Medium';
     font-weight: 600;
-    font-size: 11pt;
-    color: white;
+    font-size: 15pt;
+    color: #c9c9c9;
     text-transform: uppercase;
     border-bottom-style: solid;
     border-color: rgba(0,0,0,0);
-    border-width: 5px;
-    padding-bottom: 3px;
+    border-width: 2px;
+    padding-bottom: 5px;
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
 }
