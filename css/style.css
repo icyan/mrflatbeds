@@ -47,10 +47,17 @@ h1:hover {
 }
 
 #box {
-    width: 310px;
-    float: left;
-    margin: 0 4px 25px 4px;
+    width: 260px;
+    text-align: center;
+    padding: 10px;
+    color: #c9c9c9;
+    font-family:'Franklin Gothic Medium';
+    font-size: 15pt;
     border: 1px solid #eee;
+}
+
+#box img {
+    opacity: 0.5;
 }
 
 a {
