@@ -43,21 +43,31 @@ h1:hover {
 }
 
 #title {
-    float: right
+    float: right;
 }
 
 #box {
-    width: 260px;
+    width: 330px;
     text-align: center;
     padding: 10px;
     color: #c9c9c9;
     font-family:'Franklin Gothic Medium';
     font-size: 15pt;
-    border: 1px solid #eee;
+    float: right;
 }
 
 #box img {
-    opacity: 0.5;
+    opacity: 0.8;
+    height: 40px;
+    padding-bottom: 10px
+}
+
+#icon-text {
+    float: right;
+    text-align: left;
+    padding-left: 10px;
+    line-height: 40px;
+    width: 260px
 }
 
 a {
