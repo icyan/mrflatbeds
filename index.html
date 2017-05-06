@@ -7,7 +7,11 @@
     <meta name="description" content="Mr. Flatbeds Transport Inc. Professional and reliable flatbed transport services.">
     <meta name="author" content="Vineet George">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/unslider.css">
+    <link rel="stylesheet" type="text/css" href="css/unslider-dots.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="javascript/unslider-min.js"></script>
 </head>
 <body>
     <header>
@@ -18,7 +22,7 @@
                 <div id="box">
                     <img src="images/phone.png"/>
                     <div id="icon-text">
-                        905 482 7005
+                        (905) 482 7005
                     </div>
                     <img src="images/email.png"/>
                     <div id="icon-text">
@@ -36,7 +40,22 @@
             </ul>
         </nav>
     </header>
+    
     <div id="content">
+
+        <div class="automatic-slider">
+            <ul>
+                <li><img src="images/slide_1.png"/></li>
+                <li><img src="images/slide_2.png"/></li>
+                <li><img src="images/slide_3.png"/></li>
+                <li><img src="images/slide_1.png"/></li>
+            </ul>
+        </div>
+
+        <script>$('.automatic-slider').unslider({
+            autoplay: true,
+            infinite: true
+        });</script>
         
     </div>
     <hr/>
